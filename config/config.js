@@ -1,8 +1,10 @@
 module.exports = {
   development: {
-    username: '<YOUR_USER_NAME>',
+    // Kai's Unix username is "kai"
+    username: 'justin',
     password: null,
-    database: '<YOUR_DATABASE_NAME>',
+    // "grocery" is our example app name, which we also use as our DB name.
+    database: 'travel_development',
     host: '127.0.0.1',
     dialect: 'postgres',
   },
